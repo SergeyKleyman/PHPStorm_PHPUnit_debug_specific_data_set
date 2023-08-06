@@ -1,0 +1,25 @@
+{
+    "name": "my-projects/debug-data-set",
+    "type": "project",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "8.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DebugTestDataSetTests\\": "./tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "scripts": {
+        "run_tests": [
+            "phpunit"
+        ]
+    }
+}

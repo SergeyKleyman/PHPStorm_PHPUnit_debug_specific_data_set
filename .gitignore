@@ -1,0 +1,15 @@
+# Mac
+.DS_Store
+
+# JetBrains PhpStorm
+.idea/
+
+# Composer
+PHPUnit_9/composer.lock
+PHPUnit_9/vendor/
+PHPUnit_10/composer.lock
+PHPUnit_10/vendor/
+
+# PHPUnit
+PHPUnit_9/.phpunit.result.cache
+PHPUnit_10/.phpunit.result.cache
